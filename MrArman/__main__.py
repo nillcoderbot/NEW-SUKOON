@@ -50,7 +50,7 @@ async def init():
         pass
     await Arman.decorators()
     LOGGER("MrArman").info(
-        "Music Bot Started Successfully, Now Gib your girlfriend chumt to @Venom_bolti_public"
+        "Music Bot Started Successfully, Now Gib your girlfriend chumt to @Mr_Arman5"
     )
     await idle()
     await app.stop()
