@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "9303922"))
+API_HASH = getenv("API_HASH", "a17677495aa9ae010b897c2d65146282")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -22,10 +22,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001714843083"))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6449309718"))
+OWNER_ID = int(getenv("OWNER_ID", "5151455635"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mariyam840/MRArman",
+    "https://github.com/nillcoderbot/NEW-SUKOON",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dil_Ka_Ehsaas")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+t16sY-pzodUyNGU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LINK_KI_DUNIYA")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/II_LINK_KI_DUNIYA_II")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -59,7 +59,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "5"))
+    getenv("CLEANMODE_MINS", "2"))
 # Telegram audio and video file size limit (in bytes)
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
@@ -87,21 +87,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/2a419f8eadaefa1698e55.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-STATS_IMG_URL = "https://graph.org/file/3a6cbbe48ef24628be90e.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-STREAM_IMG_URL = "https://graph.org/file/fe7940740f751247875dc.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/fe7940740f751247875dc.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/31660093269b2be99ae89.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/44b2201d4b069b1cc476f.jpg"
 
 
 def time_to_seconds(time):
