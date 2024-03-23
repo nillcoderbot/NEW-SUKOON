@@ -50,12 +50,12 @@ async def init():
         pass
     await Arman.decorators()
     LOGGER("MrArman").info(
-        "Music Bot Started Successfully, Now Gib your girlfriend chumt to @Mr_Arman5"
+        "Music Bot Started Successfully, Now Gib your girlfriend chumt to @NILLCOD"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("MrArman").info("Stopping MrArman Music Bot...")
+    LOGGER("MrArman").info("Stopping Sukoon Music Bot...")
 
 
 if __name__ == "__main__":
